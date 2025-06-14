@@ -1,13 +1,3 @@
-PERPLEXITY_API_KEY = "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"
-
-
-
-
-
-
-
-
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -32,7 +22,7 @@ with open("faq.txt", "r") as f:
 class Query(BaseModel):
     question: str
 
-
+PERPLEXITY_API_KEY = "YOUR_PERPLEXITY_KEY"
 PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
 PERPLEXITY_MODEL = "sonar-pro"  
 
