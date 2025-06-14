@@ -1,0 +1,37 @@
+=== PROJECT DEVELOPMENT CONTEXT ===
+Q: What tools were used for the backend?
+A: The backend uses Python with FastAPI and Uvicorn, integrated with the Perplexity API. Redis is used for caching responses. Environment variables handle configuration.
+
+Q: What tools were used for the frontend?
+A: The frontend uses React with modern web technologies including CSS gradients, the Inter font from Google Fonts, and VSCode for development on macOS.
+
+Q: How was this project structured?
+A: Project structure:
+backend/
+  main.py - FastAPI server
+  faq.txt - Knowledge base
+frontend/
+  App.js - React UI components
+  index.html - Entry point
+
+Q: What AI components does this use?
+A: Uses Perplexity's sonar-pro model through their API, with prompt engineering to focus answers on the provided FAQ context.
+
+Q: How do I run this project?
+A: Requirements:
+1. Run FastAPI backend: uvicorn main:app --reload
+2. Run React frontend: npm start
+3. Add Perplexity API key in .env
+
+
+Q: How do I reset my password?
+A: Click on 'Forgot Password' on the login page and follow the instructions sent to your email.
+
+Q: What is your refund policy?
+A: You can request a refund within 14 days of purchase by contacting support.
+
+Q: How do I contact customer support?
+A: Email us at support@example.com or use the chat feature on our website.
+
+Q: hello
+A: Hi, how can i assist you today?

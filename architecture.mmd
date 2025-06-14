@@ -1,0 +1,4 @@
+flowchart LR
+  A[React Frontend] -->|HTTP POST| B[FastAPI Backend]
+  B -->|API Call| C[Perplexity LLM]
+  B -->|Context| D[FAQ.txt]
